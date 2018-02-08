@@ -1,4 +1,10 @@
-/* ALLL PAGES */
+/* ALL PAGES */
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
 
 html,
 body {
@@ -189,10 +195,14 @@ footer p {
 
 /* About Me page */
 
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
+
 p {
     line-height: 2em;
-    /* Commented out line below because it was causing layout problems in Safari */
-    /* margin-top: -0.6em;*/
     margin-bottom: 1.5em;
 }
 
@@ -204,6 +214,12 @@ p {
 
 
 /* Contact page */
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
 
 input[type=text],
 input[type=email],
@@ -267,6 +283,12 @@ input[type=submit]:focus {
 
 
 /* Portfolio Page */
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 980px) {}
 
 .photobox {
     width: 40%;

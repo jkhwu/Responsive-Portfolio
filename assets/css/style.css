@@ -57,6 +57,7 @@ h1 {
     display: inline-block;
     padding: 0.7em 1.6em;
     float: left;
+    transition: 0.5s;
 }
 
 h1:hover {
@@ -85,6 +86,7 @@ nav {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     margin-right: -1em;
+    transition: 0.5s;
 }
 
 li {
@@ -122,6 +124,7 @@ section {
     margin-right: 5%;
     float: left;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 aside {
@@ -153,6 +156,7 @@ footer p {
     width: 70%;
     margin: 0 auto;
     position: relative;
+    transition: 0.5s;
 }
 
 .contentspan::after {
@@ -200,6 +204,7 @@ p {
     width: 12em;
     margin-right: 1.5em;
     float: left;
+    transition: 0.5s;
 }
 
 
@@ -274,6 +279,7 @@ input[type=submit]:focus {
     margin-bottom: 5%;
     margin-top: 1em;
     position: relative;
+    transition: 0.5s;
 }
 
 .left {
@@ -332,6 +338,7 @@ input[type=submit]:focus {
 @media screen and (max-width: 768px) {
     .contentspan {
         width: 90%;
+        animation: contentspan2 0.5s ease-in-out;
     }
     section {
         width: 100%;
@@ -341,6 +348,7 @@ input[type=submit]:focus {
     }
     #biophoto {
         width: 50%;
+        animation: biophoto2 0.5s ease-in-out;
     }
     .connect {
         width: 10%;
@@ -360,6 +368,7 @@ input[type=submit]:focus {
 @media screen and (max-width: 640px) {
     header .contentspan {
         width: 100%;
+        animation: contentspan3 0.5s ease-in-out;
     }
     h1,
     nav {
@@ -373,6 +382,7 @@ input[type=submit]:focus {
     }
     #biophoto {
         width: 100%;
+        animation: biophoto3 0.5s ease-in-out;
     }
     .photobox {
         width: 100%;

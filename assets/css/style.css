@@ -135,6 +135,7 @@ aside {
     padding: 2em;
     margin-bottom: 3em;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 .aside::after {
@@ -338,7 +339,6 @@ input[type=submit]:focus {
 @media screen and (max-width: 768px) {
     .contentspan {
         width: 90%;
-        animation: contentspan2 0.5s ease-in-out;
     }
     section {
         width: 100%;
@@ -348,7 +348,6 @@ input[type=submit]:focus {
     }
     #biophoto {
         width: 50%;
-        animation: biophoto2 0.5s ease-in-out;
     }
     .connect {
         width: 10%;
@@ -368,7 +367,6 @@ input[type=submit]:focus {
 @media screen and (max-width: 640px) {
     header .contentspan {
         width: 100%;
-        animation: contentspan3 0.5s ease-in-out;
     }
     h1,
     nav {
@@ -382,9 +380,76 @@ input[type=submit]:focus {
     }
     #biophoto {
         width: 100%;
-        animation: biophoto3 0.5s ease-in-out;
     }
     .photobox {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    h1,
+    .projlabel,
+    input[type=submit] {
+        animation: partytime 2s linear infinite alternate;
+    }
+    @keyframes partytime {
+        0% {
+            background-color: fuchsia;
+            height: 90%;
+        }
+        25% {
+            background-color: goldenrod;
+            height: 10%;
+        }
+        50% {
+            background-color: cornflowerblue;
+            height: 80%;
+        }
+        75% {
+            background-color: tomato;
+            height: 10%;
+        }
+        100% {
+            background-color: chartreuse;
+            height: 90%;
+        }
+    }
+    #biophoto,
+    .connect {
+        position: relative;
+        animation: dance 2s linear infinite alternate;
+        border: 10px solid fuchsia;
+    }
+    @keyframes dance {
+        0% {
+            border-color: fuchsia;
+            left: -30px;
+            top: 0px;
+            width: 100%;
+        }
+        25% {
+            border-color: goldenrod;
+            left: 10px;
+            top: 0px;
+            width: 120%;
+        }
+        50% {
+            border-color: cornflowerblue;
+            left: 10px;
+            top: 20px;
+            width: 100%;
+        }
+        75% {
+            border-color: tomato;
+            left: -30px;
+            top: 20px;
+            width: 120%;
+        }
+        100% {
+            border-color: chartreuse;
+            left: -30px;
+            top: 0px;
+            width: 100%;
+        }
     }
 }

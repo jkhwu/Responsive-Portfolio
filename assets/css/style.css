@@ -1,11 +1,5 @@
 /* ALL PAGES */
 
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
 html,
 body {
     height: 100%;
@@ -326,4 +320,17 @@ input[type=submit]:focus {
 .projlabel:active {
     outline: none;
     background-color: #40aaac;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen (max-width: 980px) {}
+
+@media screen (max-width: 768px) {}
+
+@media screen (max-width: 640px) {
+    #header {
+        position: static;
+    }
 }

@@ -12,11 +12,12 @@ body {
 
 #header {
     background-color: #fff;
-    border-bottom: 4px solid #c0cad1;
+    border-bottom: 0.3em solid #c0cad1;
+    margin-bottom: 3em;
 }
 
 #body {
-    padding-bottom: 80px;
+    padding-bottom: 5em;
 }
 
 #body::after {
@@ -29,9 +30,9 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 80px;
+    height: 5em;
     background-color: #6f7984;
-    border-top: 6px solid #3a4ee9;
+    border-top: 0.3em solid #3a4ee9;
 }
 
 body {
@@ -50,11 +51,11 @@ h3 {
 h1 {
     background-color: #3a4ee9;
     color: white;
-    font-size: 25px;
+    font-size: 1.7em;
     font-weight: 600;
     letter-spacing: 0.06em;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 0.7em 1.6em;
     float: left;
 }
 
@@ -66,27 +67,29 @@ h1:hover {
 
 h2 {
     color: #282d3e;
-    font-size: 30px;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    font-size: 1.7em;
+    padding-bottom: 0.3em;
+    padding-top: 0.15em;
     font-weight: 700;
 }
 
 h3 {
     color: #282d3e;
-    font-size: 20px;
-    padding-bottom: 10px;
+    font-size: 1.2em;
+    padding-bottom: 0.3em;
     font-weight: 700;
 }
 
 nav {
     float: right;
-    padding: 24px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-right: -1em;
 }
 
 li {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
     display: inline-block;
 }
 
@@ -113,23 +116,22 @@ a:active {
 
 section {
     background-color: #fff;
-    width: 55%;
-    min-width: 150px;
-    padding: 30px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-right: 10%;
+    width: 60%;
+    padding: 2em;
+    margin-bottom: 3em;
+    margin-right: 5%;
     float: left;
+    box-sizing: border-box;
 }
 
 aside {
     background-color: #fff;
-    width: 20%;
-    min-width: 150px;
-    float: left;
-    padding: 30px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    width: 30%;
+    /* min-width: 150px; */
+    float: right;
+    padding: 2em;
+    margin-bottom: 3em;
+    box-sizing: border-box;
 }
 
 .aside::after {
@@ -140,7 +142,7 @@ aside {
 
 footer p {
     color: #c0cad1;
-    font-size: 11px;
+    font-size: 0.7em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -148,7 +150,7 @@ footer p {
 }
 
 .contentspan {
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
     position: relative;
 }
@@ -170,7 +172,7 @@ footer p {
 
 .connect {
     width: 25%;
-    margin-top: 20px;
+    margin-top: 0.7em;
 }
 
 .connect-margin {
@@ -189,49 +191,37 @@ footer p {
 
 /* About Me page */
 
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
 p {
     line-height: 2em;
     margin-bottom: 1.5em;
 }
 
 #biophoto {
-    width: 150px;
-    margin-right: 20px;
+    width: 12em;
+    margin-right: 1.5em;
     float: left;
 }
 
 
 /* Contact page */
 
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
 input[type=text],
 input[type=email],
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 0.7em;
     border: 1px solid #c0cad1;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: .3em;
+    margin-bottom: 1em;
     resize: vertical;
-    font-size: 14px;
+    font-size: 0.8em;
 }
 
 ::placeholder {
     color: #c0cad1;
     font-family: 'Karla', sans-serif;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 label {
@@ -245,10 +235,10 @@ input[type=submit] {
     font-size: 100%;
     background-color: #3a4ee9;
     color: white;
-    padding: 10px 25px;
+    padding: 0.7em 1.5em;
     border: none;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 1.5em;
 }
 
 input[type=text]:focus,
@@ -278,19 +268,16 @@ input[type=submit]:focus {
 
 /* Portfolio Page */
 
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
-@media screen (max-width: 980px) {}
-
 .photobox {
-    width: 40%;
+    width: 45%;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 5%;
+    margin-top: 1em;
     position: relative;
+}
+
+.left {
+    margin-right: 10%;
 }
 
 .photobox:hover {
@@ -307,14 +294,14 @@ input[type=submit]:focus {
     background-color: #3a4ee9;
     color: #fff;
     width: 100%;
-    padding: 5px;
+    padding: 0.3em;
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .projlabel:active {
@@ -325,12 +312,69 @@ input[type=submit]:focus {
 
 /* MEDIA QUERIES */
 
-@media screen (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+    .contentspan {
+        width: 80%;
+    }
+    #biophoto {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .photobox {
+        width: 100%;
+    }
+    .projlabel {
+        font-size: 1.2em;
+        padding: 0.7em;
+    }
+}
 
-@media screen (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .contentspan {
+        width: 90%;
+    }
+    section {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    #biophoto {
+        width: 50%;
+    }
+    .connect {
+        width: 10%;
+    }
+    .connect-margin {
+        margin-right: 2%;
+    }
+    .photobox {
+        width: 47%;
+        margin-bottom: 3%;
+    }
+    .left {
+        margin-right: 6%;
+    }
+}
 
-@media screen (max-width: 640px) {
-    #header {
-        position: static;
+@media screen and (max-width: 640px) {
+    header .contentspan {
+        width: 100%;
+    }
+    h1,
+    nav {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        float: left;
+    }
+    nav {
+        padding: 0.8em;
+    }
+    #biophoto {
+        width: 100%;
+    }
+    .photobox {
+        width: 100%;
     }
 }

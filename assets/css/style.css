@@ -57,13 +57,11 @@ h1 {
     display: inline-block;
     padding: 0.7em 1.6em;
     float: left;
-    transition: 0.5s;
 }
 
 h1:hover {
     outline: none;
     background-color: #64d5d7;
-    transition: 0.1s;
 }
 
 h2 {
@@ -86,7 +84,6 @@ nav {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     margin-right: -1em;
-    transition: 0.5s;
 }
 
 li {
@@ -104,7 +101,6 @@ a {
 
 a:hover {
     color: #64d5d7;
-    transition: 0.1s;
 }
 
 a:active {
@@ -124,18 +120,15 @@ section {
     margin-right: 5%;
     float: left;
     box-sizing: border-box;
-    transition: 0.5s;
 }
 
 aside {
     background-color: #fff;
     width: 30%;
-    /* min-width: 150px; */
     float: right;
     padding: 2em;
     margin-bottom: 3em;
     box-sizing: border-box;
-    transition: 0.5s;
 }
 
 .aside::after {
@@ -157,7 +150,6 @@ footer p {
     width: 70%;
     margin: 0 auto;
     position: relative;
-    transition: 0.5s;
 }
 
 .contentspan::after {
@@ -253,13 +245,11 @@ textarea:focus {
     outline: none;
     border: 1px solid #3a4ee9;
     box-shadow: 0 0 3px #3a4ee9;
-    transition: 0.1s;
 }
 
 input[type=submit]:hover {
     outline: none;
     background-color: #64d5d7;
-    transition: 0.1s;
 }
 
 input[type=submit]:active {
@@ -289,7 +279,6 @@ input[type=submit]:focus {
 
 .photobox:hover {
     box-shadow: 0 1px 5px #6f7984;
-    transition: 0.1s;
 }
 
 .photo {
